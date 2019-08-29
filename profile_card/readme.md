@@ -258,7 +258,7 @@ setData: (data) => {
 
 `setData` is the method that will be called when we fetch data from the _Randomuser_ API. It has a parameter called data which will be the data we get back from the API. We then use that data to populate the HTML nodes we selected.
 
-## script.js
+### script.js
 ```javascript
 const ProfileCard = (() => {
     const profile = document.querySelector('.profile-img');
